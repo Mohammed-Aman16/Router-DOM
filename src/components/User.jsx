@@ -6,6 +6,7 @@ function User() {
   return (
     <div>
       <h1>ID: {id}</h1>
+      <h3>Baigan</h3>
     </div>
   )
 }
