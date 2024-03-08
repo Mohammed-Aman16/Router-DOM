@@ -1,6 +1,7 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel'
 import "react-responsive-carousel/lib/styles/carousel.min.css"
+import Footer from './Footer/Footer';
 function Home() {
   return (
     <>
@@ -81,6 +82,32 @@ function Home() {
         <div className=' w-full h-full bg-[url("https://static.wixstatic.com/media/c837a6_5d9b5804b420484aa112d37fa3ce3f45~mv2.jpg/v1/fill/w_953,h_590,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_5d9b5804b420484aa112d37fa3ce3f45~mv2.jpg")] bg-no-repeat bg-cover bg-center'>
 
         </div>
+      </div>
+
+      <div className='w-full h-[40vh] bg-[#FBF2E8] flex flex-col gap-28 justify-center items-center'>
+        <h1 className='text-6xl font-bold text-center'>Drop By for a Bite.</h1>
+        <div className='flex gap-24 w-1/2 justify-between'>
+          <div className='Address'>
+            <h1 className='text-start font-semibold text-3xl'>Address</h1>
+            <h1 className='mt-6'>
+
+              500 Terry Francine St.</h1>
+
+              <h1>San Francisco, CA 94158</h1>
+          </div>
+          <div className='Address'>
+            <h1 className='text-start font-semibold text-3xl'>Opening Hours</h1>
+            <h1 className='mt-6'>Mon - Fri: 9am - 6pm</h1>
+            <h1>Saturday: 10am - 2pm</h1>
+            <h1>​Sunday: Closed</h1>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div>
+        <Footer/>
       </div>
 
     </>

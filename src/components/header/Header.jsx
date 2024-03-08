@@ -41,7 +41,7 @@ function Header() {
             </NavLink>
  
             <div className='button ml-5 text-white pr-3'>
-            <button className='bg-[#60695D] px-5 py-2 rounded-xl hover:text-[#60695D] transition-all ease-in-out  hover:bg-white hover:border-2 border-[#60695D]'>Log In</button>
+            <button className='bg-[#60695D] px-5 py-2 rounded-xl hover:text-[#60695D] transition-all ease-linear  hover:bg-white hover:border-1 border-[#60695D]'>Log In</button>
           </div>
           </div>
 
