@@ -14,8 +14,8 @@ function Home() {
           <h1 className=" text-xl font-normal">Cafe & Restaurant Est. 2035</h1>
           <h1 className=" text-7xl font-semibold">Your Go-to Spot for Delicious Eats & Coffee</h1>
           <div className='btn flex gap-10 items-center mt-10'>
-            <button className='p-4 border-2 border-white hover:bg-[#003B25]'>Order online</button>
-            <button className='p-4 border-2 border-white hover:bg-[#003B25]'>Our Menu</button>
+            <button className='p-4 border-2 border-white hover:bg-[#60695D]'>Order online</button>
+            <button className='p-4 border-2 border-white hover:bg-[#60695D]'>Our Menu</button>
           </div>
           </div>
         </div>
@@ -38,7 +38,13 @@ function Home() {
 
       </div>
 
-      <div className='w-full h-screen bg-white'></div>
+      <div className='w-full h-screen flex  bg-white'>
+        <div className='w-[50%] h-[75%] bg-red-700'>
+        </div>
+        <div className='right w-[50%] h-[75%] bg-no-repeat bg-cover bg-center bg-[url("https://static.wixstatic.com/media/c837a6_b12138462b31409aaf8029cf7a2dd7ed~mv2.jpg/v1/fill/w_953,h_590,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/c837a6_b12138462b31409aaf8029cf7a2dd7ed~mv2.jpg")]'>
+          
+        </div>
+      </div>
     </>
   );
 }
