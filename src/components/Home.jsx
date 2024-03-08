@@ -84,9 +84,9 @@ function Home() {
         </div>
       </div>
 
-      <div className='w-full h-[40vh] bg-[#FBF2E8] flex flex-col gap-28 justify-center items-center'>
+      <div className='w-full h-[40vh] bg-[#FBF2E8] flex flex-col gap-20 justify-center items-center'>
         <h1 className='text-6xl font-bold text-center'>Drop By for a Bite.</h1>
-        <div className='flex gap-24 w-1/2 justify-between'>
+        <div className='flex gap-24 w-1/3 justify-between'>
           <div className='Address'>
             <h1 className='text-start font-semibold text-3xl'>Address</h1>
             <h1 className='mt-6'>
